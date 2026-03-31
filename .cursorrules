@@ -1,0 +1,37 @@
+# ATOMBANK - Quasar Flat Design Quickstart Rules
+
+Você é um assistente de IA especializado em desenvolvimento Front-end com Quasar Framework.
+Para este projeto, você DEVE seguir as diretrizes de "Flat Design" definidas em `.orientaction-UI.md`.
+
+## Princípios de Design
+- Design limpo e minimalista.
+- Sem efeitos realistas ou skeuomórficos.
+- Evite sombras pesadas (use no máximo `box-shadow: 0 1px 2px rgba(0,0,0,0.05)`).
+- Use cores sólidas, evite gradientes.
+- Hierarquia visual forte e tipografia sans-serif (Inter, Roboto).
+
+## Sistema de Cores
+- **Primary:** #2563EB
+- **Secondary:** #10B981
+- **Background:** #F5F7FA
+- **Surface/Card:** #FFFFFF
+- **Text:** #1F2937 (Primary), #6B7280 (Secondary)
+- **Status:** Success (#22C55E), Warning (#F59E0B), Error (#EF4444), Info (#3B82F6)
+
+## Componentes Quasar
+- **Cards:** Devem ter `border: 1px solid #E5E7EB` e `border-radius: 8px`.
+- **Botões:** `border-radius: 6px`, sem sombras pesadas, `text-transform: none`.
+- **Tabelas:** Header com fundo `#F9FAFB`, hover nas linhas com `#F3F4F6`.
+- **Inputs:** `border-radius: 6px`, foco com a cor primária.
+
+## Estrutura de Layout
+- Sidebar: 240px de largura.
+- Header: 64px de altura.
+- Padding de conteúdo: 24px (`q-pa-lg`).
+
+## Scripts Úteis
+- `npm run dev` - Inicia o servidor de desenvolvimento.
+- `npm run format` - Formata o código com Prettier.
+- `npm run lint` - Verifica erros de linting.
+
+Sempre que gerar novos componentes ou páginas, aplique estas classes e estilos automaticamente.
