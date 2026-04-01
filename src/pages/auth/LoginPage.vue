@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h3 class="text-h1">Faça seu login</h3>
+    <h1 class="text-h1 q-mb-xs">Faça seu login</h1>
     <p class="text-body1 text-grey-8 q-mb-xl">Seja bem-vindo novamente ao seu internet banking.</p>
 
-    <q-form class="q-gutter-md">
+    <q-form class="q-gutter-y-md">
       <q-input outlined label="E-mail" placeholder="Digite seu e-mail" type="email" bg-color="white" />
 
       <q-input outlined label="Senha" placeholder="Digite sua senha" type="password" bg-color="white">
@@ -14,7 +14,7 @@
 
       <div class="row items-center justify-between q-mt-sm">
         <q-checkbox label="Lembrar-me" color="primary" :model-value="true" />
-        <q-btn flat label="Esqueceu a senha?" color="primary" no-caps to="/auth/forgot-password" />
+        <q-btn flat label="Esqueceu a senha?" color="primary" no-caps to="/auth/forgot-password" class="text-weight-bold" />
       </div>
 
       <div class="q-mt-xl">
