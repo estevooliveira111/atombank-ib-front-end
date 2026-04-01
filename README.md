@@ -1,6 +1,6 @@
 # atombank ib (atombank)
 
-\u0017\u0017atom bank internet banking
+AtomBank Internet Banking
 
 ## Install the dependencies
 

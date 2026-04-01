@@ -1,7 +1,7 @@
 {
   "name": "atombank",
   "version": "0.0.1",
-  "description": "\u0017\u0017atom bank internet banking",
+  "description": "AtomBank Internet Banking",
   "productName": "AtomBank",
   "author": "Estevão Nascimento <63885372+estevooliveira111@users.noreply.github.com>",
   "type": "module",

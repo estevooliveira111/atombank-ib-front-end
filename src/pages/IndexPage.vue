@@ -3,8 +3,9 @@
     <div class="row q-col-gutter-lg">
       <!-- Welcome Section -->
       <div class="col-12">
-        <h1 class="text-h1 q-mb-md">Dashboard</h1>
-        <p class="text-body1 text-grey-8">Bem-vindo ao AtomBank. Aqui está o resumo das suas finanças.</p>
+        <h1 style="margin-top: 0 !important;margin-bottom: 0 !important;" class="text-h1">Dashboard</h1>
+        <p style="margin-top: 0 !important;margin-bottom: 0 !important;" class="text-body1 text-grey-8">Bem-vindo ao
+          AtomBank. Aqui está o resumo das suas finanças.</p>
       </div>
 
       <!-- Stats Cards -->
@@ -42,23 +43,12 @@
             <q-btn color="primary" label="Ver Todas" flat class="q-px-md" />
           </div>
 
-          <q-table
-            :rows="rows"
-            :columns="columns"
-            row-key="id"
-            flat
-            binary-state-sort
-            hide-pagination
-            :rows-per-page-options="[0]"
-          >
+          <q-table :rows="rows" :columns="columns" row-key="id" flat binary-state-sort hide-pagination
+            :rows-per-page-options="[0]">
             <template v-slot:body-cell-status="props">
               <q-td :props="props">
-                <q-chip
-                  :color="props.value === 'Concluído' ? 'positive' : 'warning'"
-                  text-color="white"
-                  size="sm"
-                  class="text-weight-bold"
-                >
+                <q-chip :color="props.value === 'Concluído' ? 'positive' : 'warning'" text-color="white" size="sm"
+                  class="text-weight-bold">
                   {{ props.value }}
                 </q-chip>
               </q-td>
